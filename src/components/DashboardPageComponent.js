@@ -11,7 +11,7 @@ class DashboardPageComponent extends Component {
     return (
       <React.Fragment>
         <NavsComponent />
-        <SearchComponent/>
+        {/* <SearchComponent/> */}
         <BodyComponent />
         <FooterComponent />
       </React.Fragment>
