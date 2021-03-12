@@ -1,4 +1,9 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
+/**
+ * /* eslint-disable jsx-a11y/anchor-is-valid
+ *
+ * @format
+ */
+
 /** @format */
 
 import React, { Component } from "react";
@@ -16,17 +21,15 @@ class NavsComponent extends Component {
       <React.Fragment>
         <ul className='nav' style={({ borderBottom: "solid" }, colorText)}>
           <li className='nav-item'>
-            <a className='nav-link ' href='#' style={colorText}>
+            <a className='nav-link ' style={colorText}>
               Galler<span style={easyStyle}>easy</span>
             </a>
           </li>
-          <li
-            className='nav-item'
-            style={({ alignItems: "center" }, colorText)}>
+          <li className='nav-item align-items-center' style={colorText}>
             <span>|</span>
           </li>
           <li className='nav-item'>
-            <a className='nav-link disabled' href='#' style={colorText}>
+            <a className='nav-link disabled' style={colorText}>
               Search
             </a>
           </li>

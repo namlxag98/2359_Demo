@@ -3,11 +3,11 @@
 import React, { Component } from "react";
 
 const footerStyle = {
-  position: "absolute",
   left: 0,
   bottom: 0,
   right: 0,
   backgroundColor: "rgb(204 204 204)",
+  position: "fixed",
 };
 const colorText = {
   color: "gray",
